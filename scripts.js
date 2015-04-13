@@ -2,7 +2,7 @@ for (var i=0; i<data.length; i++) {//openbrace1
 
 	var rowData = data[i];
 
-	var $template = $('<div class="descriptionContainer">'+
+	var $template = $('<div class="dataContainer">'+
 	'<div class="mainQuote">'+rowData.titleWhat+'</div>'+
 	'<div class="wholeQuote">'+rowData.answerWhat +'</div>'+
 	'<div class="readMore">Read More</div>'+
@@ -14,13 +14,13 @@ for (var i=0; i<data.length; i++) {//openbrace1
 	$template.find(".readMore").on("click", toggleContent);
 
 	function toggleContent(e) {//openbrace2
-		$descriptionContainer = $(e.target).parent(); 
-		console.log ($quoteContainer)
-		if ($descriptionContainer.hasClass("expanded")) {//openbrace3//you can see content!
-			$descriptionContainer.removeClass("expanded") //this command removes content
+		$dataContainer = $(e.target).parent(); 
+		console.log ($dataContainer)
+		if ($dataContainer.hasClass("expanded")) {//openbrace3//you can see content!
+			$dataContainer.removeClass("expanded") //this command removes content
 		}//closebrace3
 		 else {//openbrace4
-			$descriptionContainer.addClass("expanded"); //since you cannot see content, this adds content!
+			$dataContainer.addClass("expanded"); //since you cannot see content, this adds content!
 		}//openbrace4
 	}//closera
 
