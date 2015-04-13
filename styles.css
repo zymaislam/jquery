@@ -1,32 +1,25 @@
-
-.titleWhat  {
+.titleWhat {
 	padding: 16px 0 12px 0;
-  font-size: 26px;
-
-  line-height: 28px;
-  font-weight: bold;
-  color: red;
-  padding: 0 0 8px 0;
-  margin: 0;
-  
-  
+	font-size: 26px;
+	line-height: 28px;
+	font-weight: bold;
+	color: red;
+	padding: 0 0 8px 0;
+	margin: 0;
 }
 
-
 .answerWhat {
-  padding: 16px 0 12px 0;
-x
-  font-size: 17px;
-  line-height: 23px;
-  color: black;
-  margin: 0px;
+	padding: 16px 0 12px 0;
+	font-size: 17px;
+	line-height: 23px;
+	color: black;
+	margin: 0px;
 }
 
 .extraInfo {
-  padding: 16px 0 12px 0;
-  
-  font-size: 17px;
-  line-height: 23px;
-  color: red;
-  margin: 0px;
+	padding: 16px 0 12px 0;
+	font-size: 17px;
+	line-height: 23px;
+	color: red;
+	margin: 0px;
 }
